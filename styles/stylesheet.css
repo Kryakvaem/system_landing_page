@@ -83,7 +83,19 @@ padding: 100px 100px;
     font-size: 16px;
     line-height: 20px;
     border:none;
+    transition:background ease-in 0.4s;
+    transition:color ease-in 0.4s;
 }
+
+.follow-description button:hover{ 
+    background: #424A57;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 50px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #0096A7;
+}
+
 
 .follow-description img{
     float: left;
@@ -179,9 +191,13 @@ footer{
 .socialmedia{  
     display: flex;
     gap: 20px;
-    transition: fill ease-in 0.3s;
+    
 }
 
+.socialmedia rect{  
+    fill: #ffffff;
+    transition: fill ease-in 0.3s;
+ }
 
 .socialmedia rect:hover{  
     fill: #0096A7;
