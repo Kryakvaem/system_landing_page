@@ -246,7 +246,7 @@ footer{
         padding: 0 16px;
     }
     header{padding: 36px 20px;
-    
+        justify-content: start;
     }
 
 
@@ -328,6 +328,7 @@ footer{
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+    padding-left: 200px;
 }
 
 .header__burger span{
