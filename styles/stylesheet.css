@@ -238,8 +238,10 @@ footer{
  }
 
 
- @media (max-width: 768px) {
+ @media (max-width: 1048px) {
+  
 
+    
     .container{
         padding: 0 16px;
     }
@@ -256,6 +258,7 @@ footer{
   .follow-description img {
     width: auto;
     clear: left;
+    height: auto;
     padding-right: 0px;
   }
 

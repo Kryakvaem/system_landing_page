@@ -55,7 +55,7 @@ BURGER.addEventListener('click',event=>{
 function closeOnClick() {
     document.querySelector(".navigation").classList.remove("open");
     BURGER.classList.remove("active");
-    document.body.remove("noscroll");
+    //document.body.remove("noscroll");
   }
 
 // Для каждого элемента меню при клике вызываем ф-ию
