@@ -369,9 +369,7 @@ footer{
     background-color: #fff;
 }
 
-body.noscroll {
-    overflow: hidden;
-  }
+
 
   .follow-description button {
     padding: 16px 32px;
