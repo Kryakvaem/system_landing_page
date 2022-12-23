@@ -13,7 +13,7 @@ header{
     flex-direction: row;
     align-items: center;
     padding: 36px 100px;
-    gap: 440px;
+    justify-content: space-between;
 
     /*position: absolute;
     width: 1440px;*/
@@ -245,7 +245,9 @@ footer{
     .container{
         padding: 0 16px;
     }
-    header{padding: 36px 20px;}
+    header{padding: 36px 20px;
+    
+    }
 
 
     .follow-description {
@@ -400,6 +402,7 @@ p{
     color: #424A57;
     padding-left: 0px;
 }
+
 footer{
     padding: 50px 10px;
 }
