@@ -32,9 +32,10 @@ HERO_DOTS.forEach((dot,index) =>dot.addEventListener('click',event => {
     })
     dot.classList.add('active');
 
-    HERO_IMG.src=`../images/hero${index+1}.png`;
+    HERO_IMG.src=`images/hero${index+1}.png`;
     HERO_TITLE.textContent = HERO_TITLES[index];
     HERO_TEXT.textContent = HERO_TEXTS[index];
+    console.log(`images/hero${index+1}.png`)
 }));
 
 //burger menu
